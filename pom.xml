@@ -36,6 +36,17 @@
             <name>EclipseLink Repo</name>
         </repository>
     </repositories>
+	
+	<distributionManagement>
+		<repository>
+		  <uniqueVersion>false</uniqueVersion>
+		  <id>CDDemo</id>
+		  <name>CD Demo Repo</name>
+		  <url>http://166.78.16.88:8082/nexus/content/repositories/releases</url>
+		  <layout>default</layout>
+		</repository>	
+	</distributionManagement>
+
     <pluginRepositories>
         <pluginRepository>
             <id>spring-maven-release</id>
