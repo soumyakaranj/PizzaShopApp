@@ -40,7 +40,7 @@
 	<distributionManagement>
 		<repository>
 		  <uniqueVersion>false</uniqueVersion>
-		  <id>CDDemo</id>
+		  <id>CD_Repo</id>
 		  <name>CD Demo Repo</name>
 		  <url>http://166.78.16.88:8082/nexus/content/repositories/releases</url>
 		  <layout>default</layout>
