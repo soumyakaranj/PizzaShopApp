@@ -43,7 +43,7 @@
 		  <uniqueVersion>false</uniqueVersion>
 		  <id>CD_Repo</id>
 		  <name>CD Demo Repo</name>
-		  <url>http://10.121.162.76:8090/nexus-latest/content/repositories/snapshots</url>
+		  <url>http://10.121.162.76:8090/nexus-latest/content/repositories/CD_Demo</url>
 		  <layout>default</layout>
 		</repository>	
 	</distributionManagement>
