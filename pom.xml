@@ -37,7 +37,7 @@
             <name>EclipseLink Repo</name>
         </repository>
     </repositories>
-	
+<!--	
 	<distributionManagement>
 		<repository>
 		  <uniqueVersion>false</uniqueVersion>
@@ -47,6 +47,7 @@
 		  <layout>default</layout>
 		</repository>	
 	</distributionManagement>
+-->
     <pluginRepositories>
         <pluginRepository>
             <id>spring-maven-release</id>
