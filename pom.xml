@@ -37,17 +37,20 @@
             <name>EclipseLink Repo</name>
         </repository>
     </repositories>
-<!--	
+
 	<distributionManagement>
 		<repository>
-		  <uniqueVersion>false</uniqueVersion>
-		  <id>CD_Repo</id>
-		  <name>CD Demo Repo</name>
-		  <url>http://23.253.83.171:8090/nexus-latest/content/repositories/CD_Demo</url>
-		  <layout>default</layout>
-		</repository>	
+			<id>30.xen.hclets.com</id>
+			<name>30.xen.hclets.com-releases</name>
+			<url>http://artifactory.xen.hclets.com/artifactory/PizzaShopSampleApp</url>
+		</repository>
+		<snapshotRepository>
+			<id>30.xen.hclets.com</id>
+			<name>30.xen.hclets.com-snapshots</name>
+			<url>http://artifactory.xen.hclets.com/artifactory/PizzaShopSampleApp</url>
+		</snapshotRepository>
 	</distributionManagement>
--->
+
     <pluginRepositories>
         <pluginRepository>
             <id>spring-maven-release</id>
