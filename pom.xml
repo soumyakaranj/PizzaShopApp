@@ -15,6 +15,29 @@
         <slf4j.version>1.7.5</slf4j.version>
         <spring.version>3.2.3.RELEASE</spring.version>
     </properties>
+    
+        <profiles>
+        <profile>
+            <id>sonar</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <properties>
+                <!-- Example for MySQL-->
+                <sonar.jdbc.url>
+                  jdbc:h2:tcp://localhost:9092/sonar?useUnicode=true&amp;characterEncoding=utf8
+                </sonar.jdbc.url>
+                <sonar.jdbc.username>sonar</sonar.jdbc.username>
+                <sonar.jdbc.password>sonar</sonar.jdbc.password>
+ 
+                <!-- Optional URL to server. Default value is http://localhost:9000 -->
+                <sonar.host.url>
+                  http://sonar.xen.hclets.com
+                </sonar.host.url>
+            </properties>
+        </profile>
+     </profiles>
+    
     <repositories>
         <repository>
             <id>spring-maven-release</id>
