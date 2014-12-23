@@ -17,4 +17,5 @@ public class Base {
     @NotNull
     @Size(min = 2)
     private String name;
+    
 }
