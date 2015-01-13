@@ -18,4 +18,5 @@ public class Base {
     @Size(min = 2)
     private String name;
     
+    
 }
