@@ -12,6 +12,8 @@ import org.springframework.roo.addon.json.RooJson;
 @RooJson(deepSerialize = true)
 public class Base {
 
+
+
     /**
      */
     @NotNull
